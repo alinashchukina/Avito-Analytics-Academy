@@ -1,7 +1,6 @@
 Задание: написать продолжение для данного кусочка кода. Написать функции step2_umbrella() и step2_no_umbrella().
 
 
-# Guido van Rossum <guido@python.org>
 
 def step1():
     print(
