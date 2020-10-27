@@ -11,7 +11,7 @@ count_matrix = vectorizer.fit_transform(corpus)
 print(vectorizer.get_feature_names())
 
 Out: ['crock', 'pot', 'pasta', 'never', 'boil', 'again', 'pomodoro',
-_ 'fresh', 'ingredients', 'parmesan', 'to', 'taste']
+'fresh', 'ingredients', 'parmesan', 'to', 'taste']
 
 print(count_matrix)
 
