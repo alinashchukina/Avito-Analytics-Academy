@@ -1,0 +1,45 @@
+COMMAND:
+python -m doctest -v -o NORMALIZE_WHITESPACE task_1.py
+
+OUTPUT:
+Trying:
+    encode('A'*30) # doctest: +ELLIPSIS
+Expecting:
+    '.- ... .-'
+ok
+Trying:
+    encode('AA')
+Expecting:
+    '.-
+    .-'
+ok
+Trying:
+    encode('ABRA CADABRA')
+Expecting:
+    '.- -... .-. .-
+    -.-. .- -.. .- -... .-. .-'
+ok
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode(31)
+Expecting:
+    Traceback (most recent call last):
+    TypeError: 'int' object is not iterable
+ok
+Trying:
+    encode('Hello!')
+Expecting:
+    Traceback (most recent call last):
+    KeyError: 'e'
+ok
+1 items had no tests:
+    task_1
+1 items passed all tests:
+   6 tests in task_1.encode
+6 tests in 2 items.
+6 passed and 0 failed.
+Test passed.
