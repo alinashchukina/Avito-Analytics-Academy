@@ -1,9 +1,0 @@
-COMMAND:
-python -m unittest task_3.py
-
-OUTPUT:
-.....
-----------------------------------------------------------------------
-Ran 5 tests in 0.001s
-
-OK
